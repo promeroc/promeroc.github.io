@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: linen;
+    font-family: monospace;
+}
+
+header {
+    padding: 50px;
+    background-color: rgb(82, 38, 11);
+    color: white;
+    margin-bottom: 45px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-weight:lighter;
+    opacity: 0.8;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+    padding: 10px;
+    background-color: rgba(192, 158, 116, 0.6);
+    border: 2px solid black;
+ }
+
+nav li:hover {
+    background-color: rgb(192, 158, 116);
+    font-size: 120%;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+.topic h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    margin: 50px auto 20px;
+    color: sienna;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 850px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100px;
+    padding: 7px;
+}
+
+th {
+    background-color:sienna;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-weight: bold;
+    font-size: large;
+    padding: 7px;
+}
+
+th.attributes {
+    width: 150px;
+}
+
+th.description {
+    width: 410px;
+    height: fit-content;
+}
+
+td.tag {
+    text-align: center;
+    background-color: bisque;
+    width: 125px;
+}
+
+th.title {
+    background-color: saddlebrown;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 7px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td.definition {
+    background-color: rgba(202, 167, 124, 0.539);
+}
+
+footer {
+    background-color: rgb(82, 38, 11);
+    color: white;
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+}
+
+.author {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
